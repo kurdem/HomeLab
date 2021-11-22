@@ -7,7 +7,7 @@ if ((Get-MyComputerModel) -match 'Virtual') {
     Set-DisRes 1024
 }
 
-Start-OSDCloud -OSLanguage en-us -OSBuild 20H2 -OSEdition Enterprise -ZTI
+Start-OSDCloud -OSLanguage de-DE -OSBuild 20H2 -OSEdition Enterprise -ZTI
 
 #Restart from WinPE
 Write-Host  -ForegroundColor Green "Restarting in 20 seconds! Eject USB or ISO"
